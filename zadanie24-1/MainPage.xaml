@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zadanie24_1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry
+                x:Name="EntryZapis"
+                />
+
+            <Button
+                x:Name="ButtonZapisz"
+                Text="Zapisz do pliku"
+                Clicked="ZapiszPlik"
+                />
+
+            <Button
+                x:Name="ButtonOdczyt"
+                Text="Odczytaj z pliku"
+                Clicked="OdczytPlik"
+                />
+
+            <Label
+                x:Name="LabelWyswietl"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
